@@ -1,6 +1,6 @@
 import { ArticleRequest } from './../interfaces/RequestInterfaces';
 import { Article } from './../models/ArticleModel';
-import { Router, Request, Response, NextFunction } from "express";
+import { Router, Response, NextFunction } from "express";
 
 const router: Router = Router()
 

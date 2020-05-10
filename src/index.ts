@@ -1,5 +1,5 @@
 import { mainRouter } from './routes/index';
-import { Database } from './core/database';
+import { Database } from './core/Database';
 import express, { Request, Application, Response } from "express";
 import dotenv from "dotenv";
 
