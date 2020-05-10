@@ -13,6 +13,7 @@ export class Database {
     static connect(uri: string) {
         mongoose.connect(uri, this.options)
         mongoose.set('debug', true)
+
         mongoose.connection.on('connected', () => {
             console.log('Mongoose connected');
         })
