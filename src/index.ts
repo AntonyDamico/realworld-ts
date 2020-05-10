@@ -11,9 +11,7 @@ Database.connect(mongoUri)
 
 
 app.get('/', (req: Request, res: Response) => {
-
     res.status(200).json({ response: true })
-
 })
 
 app.listen(port, () => {
